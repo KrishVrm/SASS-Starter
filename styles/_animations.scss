@@ -1,7 +1,4 @@
-//$ HAMBURGER ANIMATION
-.secondLine {
-  height: 2.7px;
-}
+// HAMBURGER ANIMATION
 .hamAnimation {
   .firstLine {
     transition: 0.3s;
@@ -32,18 +29,18 @@
   }
 }
 
-//$ OPEN
+// OPEN
 .navOpenAnimation {
   animation: fade-in 0.35s ease-out;
 }
 
-//$ CLOSE
+// CLOSE
 .navCloseAnimation {
   animation: fade-out 0.35s ease-out;
 }
 
-//$ ANIMATIONS
-//$ CIRCLE-IN-OUT ANIMATION
+// ANIMATIONS
+// CIRCLE-IN-OUT ANIMATION
 @keyframes circle-in {
   0% {
     clip-path: circle(0% at 100% 0%);
@@ -61,7 +58,7 @@
   }
 }
 
-//$ FALL-IN-OUT ANIMATION
+// FALL-IN-OUT ANIMATION
 @keyframes fall-in {
   0% {
     bottom: 39rem;
@@ -81,7 +78,7 @@
   }
 }
 
-//$ FADE-IN-OUT ANIMATION
+// FADE-IN-OUT ANIMATION
 @keyframes fade-in {
   0% {
     opacity: 0;
