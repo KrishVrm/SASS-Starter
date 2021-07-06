@@ -1,4 +1,4 @@
-//$ FLEX-BOX MIXINS
+// FLEX-BOX MIXINS
 @mixin flex-box($fd, $jc, $ai) {
   display: flex;
   justify-content: $jc;
@@ -13,19 +13,19 @@
   flex-direction: $fd;
 }
 
-//$ Breakpoints
+// Breakpoints
 @media (min-width: 64em) {
   // styles go here
 }
 
-//$ 640px, 1024px, 1400px
+// 640px, 1024px, 1400px
 $breakpoints-up: (
   "medium": "40em",
   "large": "64em",
   "xlarge": "87.5em",
 );
 
-//$ 639px, 1023px, 1399px
+// 639px, 1023px, 1399px
 $breakpoints-down: (
   "small": "39.9375em",
   "medium": "63.9375em",
