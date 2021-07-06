@@ -16,7 +16,7 @@
 // Desktop ONLY Hover
 @mixin hoverEffect {
   @media (hover: hover) and (pointer: fine){
-    @content
+    @content;
   }
 }  
 
