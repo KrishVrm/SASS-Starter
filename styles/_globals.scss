@@ -23,6 +23,7 @@ body {
 a,
 a:visited,
 a:hover {
+  user-select: none;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -40,6 +41,7 @@ input {
   border: none;
   outline: none;
   cursor: pointer;
+  user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
 
