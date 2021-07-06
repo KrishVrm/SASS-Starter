@@ -3,8 +3,7 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   ::selection {
-    background: $Bright-Red;
-    color: white;
+    // Styles go here
   }
 }
 
@@ -25,6 +24,7 @@ a,
 a:visited,
 a:hover {
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 ul {
@@ -36,10 +36,11 @@ input {
   outline: none;
 }
 
-button {
+* button {
   border: none;
   outline: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .noscroll {
